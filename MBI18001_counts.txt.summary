@@ -1,0 +1,15 @@
+Status	SRR12073954.bam	SRR12073955.bam	SRR12073956.bam	SRR12073957.bam	SRR12073958.bam	SRR12073959.bam
+Assigned	23991284	24228932	21826036	20965791	20980001	20655382
+Unassigned_Unmapped	7373894	5563228	4338323	5900883	5642382	6453936
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	3459920	5909221	4237261	6455614	4078550	3358977
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	5392333	5329992	4897572	4513090	4583098	4608011

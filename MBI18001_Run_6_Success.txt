@@ -1,0 +1,665 @@
+rishi@PEACE:/mnt/d/rna_seq$ ./MBI18001_RNASeq_SE_pipeline.sh
+start time: 1620559309
+[2021-05-09 16:51:49] ----STARTING THE PIPELINE------
+[2021-05-09 16:51:49] ----------Creating Directory hierachy------
+[2021-05-09 16:51:49] ------Trimming by fastp------
+SRR12073954
+Processing SRR12073954
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 35691340
+total bases: 5349735996
+Q20 bases: 5268558814(98.4826%)
+Q30 bases: 5113797996(95.5897%)
+
+Read1 after filtering:
+total reads: 34958863
+total bases: 5239916360
+Q20 bases: 5186360903(98.9779%)
+Q30 bases: 5059910842(96.5647%)
+
+Filtering result:
+reads passed filter: 34958863
+reads failed due to low quality: 728742
+reads failed due to too many N: 3735
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 68.3495%
+
+JSON report: SRR12073954.json
+HTML report: SRR12073954.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073954.fastq.gz --out1=SRR12073954_trimmed.fastq.gz --json=SRR12073954.json --html=SRR12073954.html
+fastp v0.20.0, time used: 393 seconds
+awk: fatal: cannot open file `'SRR12073954.html'' for reading (No such file or directory)
+SRR12073954. Report generated and moved to results fastp_reports!!!
+SRR12073955
+Processing SRR12073955
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 34299770
+total bases: 5141069225
+Q20 bases: 5060897489(98.4406%)
+Q30 bases: 4910082142(95.507%)
+
+Read1 after filtering:
+total reads: 33566312
+total bases: 5031103534
+Q20 bases: 4978842244(98.9612%)
+Q30 bases: 4856298910(96.5255%)
+
+Filtering result:
+reads passed filter: 33566312
+reads failed due to low quality: 729903
+reads failed due to too many N: 3555
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 69.8477%
+
+JSON report: SRR12073955.json
+HTML report: SRR12073955.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073955.fastq.gz --out1=SRR12073955_trimmed.fastq.gz --json=SRR12073955.json --html=SRR12073955.html
+fastp v0.20.0, time used: 295 seconds
+awk: fatal: cannot open file `'SRR12073955.html'' for reading (No such file or directory)
+SRR12073955. Report generated and moved to results fastp_reports!!!
+SRR12073956
+Processing SRR12073956
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 30252220
+total bases: 4533863673
+Q20 bases: 4464186915(98.4632%)
+Q30 bases: 4332803824(95.5654%)
+
+Read1 after filtering:
+total reads: 29630463
+total bases: 4440650233
+Q20 bases: 4394792964(98.9673%)
+Q30 bases: 4287193613(96.5443%)
+
+Filtering result:
+reads passed filter: 29630463
+reads failed due to low quality: 618569
+reads failed due to too many N: 3188
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 71.0206%
+
+JSON report: SRR12073956.json
+HTML report: SRR12073956.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073956.fastq.gz --out1=SRR12073956_trimmed.fastq.gz --json=SRR12073956.json --html=SRR12073956.html
+fastp v0.20.0, time used: 237 seconds
+awk: fatal: cannot open file `'SRR12073956.html'' for reading (No such file or directory)
+SRR12073956. Report generated and moved to results fastp_reports!!!
+SRR12073957
+Processing SRR12073957
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 29792705
+total bases: 4464960175
+Q20 bases: 4393268311(98.3943%)
+Q30 bases: 4259291876(95.3937%)
+
+Read1 after filtering:
+total reads: 29126903
+total bases: 4365142899
+Q20 bases: 4318792060(98.9382%)
+Q30 bases: 4210621375(96.4601%)
+
+Filtering result:
+reads passed filter: 29126903
+reads failed due to low quality: 662619
+reads failed due to too many N: 3183
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 66.9097%
+
+JSON report: SRR12073957.json
+HTML report: SRR12073957.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073957.fastq.gz --out1=SRR12073957_trimmed.fastq.gz --json=SRR12073957.json --html=SRR12073957.html
+fastp v0.20.0, time used: 234 seconds
+awk: fatal: cannot open file `'SRR12073957.html'' for reading (No such file or directory)
+SRR12073957. Report generated and moved to results fastp_reports!!!
+SRR12073958
+Processing SRR12073958
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 29625016
+total bases: 4439333554
+Q20 bases: 4367776769(98.3881%)
+Q30 bases: 4233184139(95.3563%)
+
+Read1 after filtering:
+total reads: 28984709
+total bases: 4343346429
+Q20 bases: 4296138570(98.9131%)
+Q30 bases: 4186187557(96.3816%)
+
+Filtering result:
+reads passed filter: 28984709
+reads failed due to low quality: 637189
+reads failed due to too many N: 3118
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 69.0392%
+
+JSON report: SRR12073958.json
+HTML report: SRR12073958.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073958.fastq.gz --out1=SRR12073958_trimmed.fastq.gz --json=SRR12073958.json --html=SRR12073958.html
+fastp v0.20.0, time used: 233 seconds
+awk: fatal: cannot open file `'SRR12073958.html'' for reading (No such file or directory)
+SRR12073958. Report generated and moved to results fastp_reports!!!
+SRR12073959
+Processing SRR12073959
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 29791671
+total bases: 4465361142
+Q20 bases: 4397413866(98.4783%)
+Q30 bases: 4268523126(95.5919%)
+
+Read1 after filtering:
+total reads: 29169897
+total bases: 4372137947
+Q20 bases: 4327736257(98.9844%)
+Q30 bases: 4222902761(96.5867%)
+
+Filtering result:
+reads passed filter: 29169897
+reads failed due to low quality: 618580
+reads failed due to too many N: 3194
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 68.5965%
+
+JSON report: SRR12073959.json
+HTML report: SRR12073959.html
+
+fastp --thread=2 --length_required=10 --qualified_quality_phred=32 --in1=/mnt/d/rna_seq/ena_files/SRR12073959.fastq.gz --out1=SRR12073959_trimmed.fastq.gz --json=SRR12073959.json --html=SRR12073959.html
+fastp v0.20.0, time used: 231 seconds
+awk: fatal: cannot open file `'SRR12073959.html'' for reading (No such file or directory)
+SRR12073959. Report generated and moved to results fastp_reports!!!
+[2021-05-09 17:18:52] ------All trimming completed!!!----
+[2021-05-09 17:18:52]----------Doing QC after trimming------
+renamed 'SRR12073954_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073954_trimmed.html'
+renamed 'SRR12073954_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073954_trimmed.zip'
+mv: cannot stat 'SRR12073954_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073954_trimmed_fastqc*.zip': No such file or directory
+renamed 'SRR12073955_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073955_trimmed.html'
+renamed 'SRR12073955_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073955_trimmed.zip'
+mv: cannot stat 'SRR12073955_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073955_trimmed_fastqc*.zip': No such file or directory
+renamed 'SRR12073956_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073956_trimmed.html'
+renamed 'SRR12073956_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073956_trimmed.zip'
+mv: cannot stat 'SRR12073956_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073956_trimmed_fastqc*.zip': No such file or directory
+renamed 'SRR12073957_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073957_trimmed.html'
+renamed 'SRR12073957_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073957_trimmed.zip'
+mv: cannot stat 'SRR12073957_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073957_trimmed_fastqc*.zip': No such file or directory
+renamed 'SRR12073958_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073958_trimmed.html'
+renamed 'SRR12073958_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073958_trimmed.zip'
+mv: cannot stat 'SRR12073958_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073958_trimmed_fastqc*.zip': No such file or directory
+renamed 'SRR12073959_trimmed_fastqc.html' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073959_trimmed.html'
+renamed 'SRR12073959_trimmed_fastqc.zip' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/fastqc/SRR12073959_trimmed.zip'
+mv: cannot stat 'SRR12073959_trimmed_fastqc*.html': No such file or directory
+mv: cannot stat 'SRR12073959_trimmed_fastqc*.zip': No such file or directory
+[2021-05-09 17:36:31] ------------Done quality check and report generated!!----------
+[2021-05-09 17:36:31] ------------Moved to results fastqc!!----------
+[2021-05-09 17:36:31] ------------Preparing for Alignment----------
+[2021-05-09 17:36:31] ------------Locating and placing reference genome------------
+'/mnt/d/rna_seq/ref_gen/Oryza_sativa.IRGSP-1.0.dna.toplevel.fa' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/reference_genome/ref_genome.fa'
+[2021-05-09 17:36:36] -----Building indices-----
+Settings:
+  Output files: "index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/reference_genome/ref_genome.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:03
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:03
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 70299567 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 70299567 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:09
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:02
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:04
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 4.68664e+07 (target: 70299566)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 8
+Getting block 2 of 8
+  Reserving size (70299567) for bucket 2
+  Reserving size (70299567) for bucket 1
+  Calculating Z arrays for bucket 2
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 2:
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 2: 10%
+  bucket 1: 20%
+  bucket 2: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 2: 30%
+  bucket 1: 50%
+  bucket 2: 40%
+  bucket 1: 60%
+  bucket 2: 50%
+  bucket 1: 70%
+  bucket 2: 60%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 2: 70%
+  bucket 1: 100%
+  Sorting block of length 27682887 for bucket 1
+  (Using difference cover)
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 67244662 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:16
+Returning block of 27682888 for bucket 1
+Getting block 3 of 8
+  Reserving size (70299567) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 39850775 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:42
+Returning block of 67244663 for bucket 2
+Getting block 4 of 8
+  Reserving size (70299567) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  Sorting block time: 00:00:24
+Returning block of 39850776 for bucket 3
+  bucket 4: 40%
+  bucket 4: 50%
+Getting block 5 of 8
+  Reserving size (70299567) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 4: 60%
+  bucket 5: 10%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 5: 20%
+  bucket 4: 90%
+  bucket 5: 30%
+  bucket 4: 100%
+  Sorting block of length 34256771 for bucket 4
+  (Using difference cover)
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 39407577 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:23
+Returning block of 34256772 for bucket 4
+Getting block 6 of 8
+  Reserving size (70299567) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  Sorting block time: 00:00:27
+Returning block of 39407578 for bucket 5
+  bucket 6: 100%
+  Sorting block of length 55904864 for bucket 6
+  (Using difference cover)
+Getting block 7 of 8
+  Reserving size (70299567) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 42419961 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:26
+Returning block of 42419962 for bucket 7
+  Sorting block time: 00:00:36
+Returning block of 55904865 for bucket 6
+Getting block 8 of 8
+  Reserving size (70299567) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 68163523 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:39
+Returning block of 68163524 for bucket 8
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 105795447
+fchr[G]: 187457271
+fchr[T]: 269142901
+fchr[$]: 374931027
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 129187734 bytes to primary GFM file: index.1.ht2
+Wrote 93732764 bytes to secondary GFM file: index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 164882933 bytes to primary GFM file: index.5.ht2
+Wrote 95445096 bytes to secondary GFM file: index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 374931027
+    gbwtLen: 374931028
+    nodes: 374931028
+    sz: 93732757
+    gbwtSz: 93732758
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 23433190
+    offsSz: 93732760
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 1952766
+    numLines: 1952766
+    gbwtTotLen: 124977024
+    gbwtTotSz: 124977024
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:04:22
+[2021-05-09 17:40:58] ----------Aligning with indices--------
+34958863 reads; of these:
+  34958863 (100.00%) were unpaired; of these:
+    7373894 (21.09%) aligned 0 times
+    25276093 (72.30%) aligned exactly 1 time
+    2308876 (6.60%) aligned >1 times
+78.91% overall alignment rate
+33566312 reads; of these:
+  33566312 (100.00%) were unpaired; of these:
+    5563228 (16.57%) aligned 0 times
+    25046310 (74.62%) aligned exactly 1 time
+    2956774 (8.81%) aligned >1 times
+83.43% overall alignment rate
+29630463 reads; of these:
+  29630463 (100.00%) were unpaired; of these:
+    4338323 (14.64%) aligned 0 times
+    23029084 (77.72%) aligned exactly 1 time
+    2263056 (7.64%) aligned >1 times
+85.36% overall alignment rate
+29126903 reads; of these:
+  29126903 (100.00%) were unpaired; of these:
+    5900883 (20.26%) aligned 0 times
+    20061600 (68.88%) aligned exactly 1 time
+    3164420 (10.86%) aligned >1 times
+79.74% overall alignment rate
+28984709 reads; of these:
+  28984709 (100.00%) were unpaired; of these:
+    5642382 (19.47%) aligned 0 times
+    20855443 (71.95%) aligned exactly 1 time
+    2486884 (8.58%) aligned >1 times
+80.53% overall alignment rate
+29169897 reads; of these:
+  29169897 (100.00%) were unpaired; of these:
+    6453936 (22.13%) aligned 0 times
+    20208548 (69.28%) aligned exactly 1 time
+    2507413 (8.60%) aligned >1 times
+77.87% overall alignment rate
+[2021-05-09 19:10:54]--------Done alignment and placed SAM files in results hisat2------
+[2021-05-09 19:10:54] ------------Running SAM Tools to Convert SAM to BAM---------
+Processing SRR12073954.sam
+[bam_sort_core] merging from 18 files and 2 in-memory blocks...
+SRR12073954.sam converted
+Processing SRR12073955.sam
+[bam_sort_core] merging from 18 files and 2 in-memory blocks...
+SRR12073955.sam converted
+Processing SRR12073956.sam
+[bam_sort_core] merging from 16 files and 2 in-memory blocks...
+SRR12073956.sam converted
+Processing SRR12073957.sam
+[bam_sort_core] merging from 16 files and 2 in-memory blocks...
+SRR12073957.sam converted
+Processing SRR12073958.sam
+[bam_sort_core] merging from 16 files and 2 in-memory blocks...
+SRR12073958.sam converted
+Processing SRR12073959.sam
+[bam_sort_core] merging from 16 files and 2 in-memory blocks...
+SRR12073959.sam converted
+[2021-05-09 19:34:18] -----Converted all SAM files to BAM-----
+[2021-05-09 19:34:18] --------Moving BAM files to results samtools-----------
+renamed 'SRR12073954.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073954.bam'
+renamed 'SRR12073955.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073955.bam'
+renamed 'SRR12073956.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073956.bam'
+renamed 'SRR12073957.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073957.bam'
+renamed 'SRR12073958.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073958.bam'
+renamed 'SRR12073959.bam' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/samtools/SRR12073959.bam'
+[2021-05-09 19:34:18] --------Moved BAM files-----------
+[2021-05-09 19:34:18] --------Done with SAM tools !!!---------
+./MBI18001_RNASeq_SE_pipeline.sh: line 204: END: command not found
+[2021-05-09 19:34:21] ---------------Generating feature counts...-------------
+
+        ==========     _____ _    _ ____  _____  ______          _____
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+          v2.0.0
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                           o SRR12073954.bam                                ||
+||                           o SRR12073955.bam                                ||
+||                           o SRR12073956.bam                                ||
+||                           o SRR12073957.bam                                ||
+||                           o SRR12073958.bam                                ||
+||                           o SRR12073959.bam                                ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Annotation : Oryza_sativa.IRGSP-1.0.50.chr.gtf (GTF)          ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Oryza_sativa.IRGSP-1.0.50.chr.gtf ...                 ||
+||    Features : 38978                                                        ||
+||    Meta-features : 38978                                                   ||
+||    Chromosomes/contigs : 14                                                ||
+||                                                                            ||
+|| Process BAM file SRR12073954.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 40217431                                             ||
+||    Successfully assigned alignments : 23991284 (59.7%)                     ||
+||    Running time : 0.49 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR12073955.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 41031373                                             ||
+||    Successfully assigned alignments : 24228932 (59.0%)                     ||
+||    Running time : 0.50 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR12073956.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 35299192                                             ||
+||    Successfully assigned alignments : 21826036 (61.8%)                     ||
+||    Running time : 0.45 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR12073957.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 37835378                                             ||
+||    Successfully assigned alignments : 20965791 (55.4%)                     ||
+||    Running time : 0.46 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR12073958.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 35284031                                             ||
+||    Successfully assigned alignments : 20980001 (59.5%)                     ||
+||    Running time : 0.44 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR12073959.bam...                                        ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 35076306                                             ||
+||    Successfully assigned alignments : 20655382 (58.9%)                     ||
+||    Running time : 0.44 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+|| Summary of counting results can be found in file "counts.txt.summary"      ||
+||                                                                            ||
+\\============================================================================//
+
+[2021-05-09 19:37:12] ---------Done Generating count data-----------
+[2021-05-09 19:37:12] ---------Moving Results...-----------
+renamed 'counts.txt' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/featureCounts/counts.txt'
+renamed 'counts.txt.summary' -> '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_SE/results/featureCounts/counts.txt.summary'
+[2021-05-09 19:37:12] --------Results moved to results featureCounts---------
+[2021-05-09 19:37:12] --------Finished with featureCounts!!!-----
+[2021-05-09 19:37:12] ---------------Calling R for DeSeq2-------------
+[2021-05-09 19:37:12]---------------Cleaning Up-------------
+[2021-05-09 19:37:12]---------------Deleting SAM files-------------
+rm: cannot remove '/mnt/f/projects/rice/pipeline_result/heat_drought/data/workflow_PE/results/hisat2/': No such file or directory
+[2021-05-09 19:37:12]---------------SAM files deleted!!!-------------
+[2021-05-09 19:37:12]---------------Clean Up Completed !!!-------------
+[2021-05-09 19:37:12] --------END OF PIPELINE---------
+############################################################
+
+time taken:
+
+start time: 1620559309
+end time: 1620569232
+
+runtime (in seconds): 9923
+runtime (in minutes): 165.383
+runtime (in hours): 2.75639
+
+############################################################
+rishi@PEACE:/mnt/d/rna_seq$
